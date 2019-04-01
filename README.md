@@ -21,6 +21,8 @@ Is a tool for quick and easy development of DataWeave scripts
 
 ## How to run the application
 
-To run the DataWeave Playground using maven, execute the following command:
+To run the DataWeave Playground using maven, execute the following commands:
 
+```mvn package```
 ```mvn exec:java -Dexec.mainClass="com.github.estebanwasinger.DWPlayground"```
+
